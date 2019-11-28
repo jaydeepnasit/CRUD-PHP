@@ -14,3 +14,6 @@ Create, Read, Update and Delete (CRUD) Operation in PHP with MYSQL
 
 # Preview :-
 
+![Preview](https://user-images.githubusercontent.com/26626045/69788673-078bb200-11e5-11ea-9d3b-9ff049f7894c.png)
+
+# Watch On Youtube :- 
