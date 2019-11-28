@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insert</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <h1 class="heading">Update Record</h1>
+            </div>
+            <div class="row justify-content-center">
+                <a class="first-btn-sty btn-dark" href="index.html">View Record</a>
+            </div>
+        </div>
+        <div class="container">
+                <article class="card-body mx-auto" style="max-width: 400px;">
+                    <form>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                             </div>
+                            <input name="" class="form-control" placeholder="Full name" type="text">
+                        </div>
+                        <span class="error-msg"> * Please Enter Full Name</span>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                             </div>
+                            <input name="" class="form-control" placeholder="Email address" type="email">
+                        </div> 
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fas fa-globe"></i> </span>
+                            </div>
+                            <select class="form-control">
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>Germany</option>
+                            </select>
+                        </div> 
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fas fa-birthday-cake"></i> </span>
+                            </div>
+                            <input name="" class="form-control" type="date">
+                        </div>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fas fa-venus-double"></i> </span>
+                            </div>
+                            <div class="form-control">
+                                <input type="radio" value="Male" name="gender"> Male
+                                <input type="radio" value="Female" name="gender"> Female 
+                            </div>
+                        </div> 
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="far fa-hand-point-right"></i> </span>
+                            </div>
+                            <div class="form-control">
+                                <input type="checkbox" value="Php" name="skill"> Php
+                                <input type="checkbox" value="Nodejs" name="skill"> Nodejs 
+                                <input type="checkbox" value="Typescript" name="skill"> Typescript 
+                            </div>
+                        </div>                                    
+                        <div class="form-group">
+                            <input type="submit" name="update" value="Update Record" class="btn btn-primary btn-block">
+                        </div> <!-- form-group// -->                                                                     
+                    </form>
+                </article>            
+        </div>
+    </div>
+    
+</body>
+</html>
