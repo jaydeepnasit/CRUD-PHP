@@ -10,3 +10,7 @@ Create, Read, Update and Delete (CRUD) Operation in PHP with MYSQL
 
 # Apply Custom Validation:-
 
+![Custom_Validation](https://user-images.githubusercontent.com/26626045/69788566-cf846f00-11e4-11ea-832b-bcdf3c672b1d.jpg)
+
+# Preview :-
+
