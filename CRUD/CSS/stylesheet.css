@@ -1,0 +1,46 @@
+*{
+	text-decoration: none !important;
+    list-style: none;
+}
+body{
+    background: url("../background/backwallpaper.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    height: auto;
+    padding: 10px !important;
+    margin: 15px auto;
+    text-align: center;
+    box-shadow:inset 0px 0px 2px 1px gray;
+    background: rgb(0,28,40);
+    background: linear-gradient(90deg, rgba(0,28,40,1) 0%, rgba(0,70,126,1) 100%);
+    color: white;
+    border-radius: 10px;
+}
+.first-btn-sty{
+    text-align: center;
+    font-size: 17px;
+    color: white !important;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.error-msg{
+    font-size: 14px;
+    font-weight: 600;
+    color: black !important;
+    margin-bottom: 10px !important;
+}
+.form-group{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+.pm_btn_back{
+    background: rgb(0,28,40);
+    background: linear-gradient(90deg, rgba(0,28,40,1) 0%, rgba(0,70,126,1) 100%);
+    color: white;
+}
+.pm_btn_back:hover{
+    color: white !important;
+}
